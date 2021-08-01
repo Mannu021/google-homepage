@@ -3,31 +3,35 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <link rel="stylesheet" href="mystyle.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <meta name="referrer" content="strict-origin" />
+    
 </head>
 
 <body>
-    <nav>
+    <nav class="navigation">
         <ul>
             <li><a href="#">Gmail</a></li>
             <li><a href="#">Images</a></li>
-            <li><a href="#"><span class="material-icons-outlined">
-                apps
-                </span></a></li>
-            <li><a href="#"><img src="https://lh3.googleusercontent.com/ogw/ADea4I68HQIhyUz1gI_9VE2HZav2r7nocpGDSJZ5y5FH3Q=s32-c-mo"></a></li>
-        </ul>
+            <div id="side-logo"><img id="apps" src="black-24dp (2)/1x/outline_apps_black_24dp.png" alt="apps"</a></li>
+            </div>
+            <div id="side-image"><li><a href="#"><img id="profile" src="https://lh3.googleusercontent.com/ogw/ADea4I68HQIhyUz1gI_9VE2HZav2r7nocpGDSJZ5y5FH3Q=s32-c-mo"></a></li>
+            </div>
+            </ul>
     </nav>
-    <div id="search-logo"> <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="the goole logo">
+    <div id="search-logo"> <img id="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="the goole logo">
     </div>
-    <div id="search-box"> 
-    <span class="material-icons-outlined"> search </span>
-    <input type="text" placeholder="Search Google or type a URL">
-    <span><img src="https://lh3.googleusercontent.com/PZfvvpPrihOCoQmwPn-qkBNjHrcESxEKJNlmvbcI-OWSuquFEee-Mwls_KVFIvhpl6kxGcEdqZDKTP3qOp5GvSSyIAI6RUbG9ni82g" 
-    alt="mic-image" width=40px height=40px></span>
+    <div id="search-all">
+    <div id="search-boxm"> 
+    <img id="ml" src="black-24dp (2)/1x/outline_search_black_24dp.png" alt="search">
+    <input id="search-box" type="text" placeholder="Search Google or type a URL">
+    <span><img id="mic" src="https://lh3.googleusercontent.com/PZfvvpPrihOCoQmwPn-qkBNjHrcESxEKJNlmvbcI-OWSuquFEee-Mwls_KVFIvhpl6kxGcEdqZDKTP3qOp5GvSSyIAI6RUbG9ni82g" 
+    alt="mic-image" ></span>
     </div>
     <div class="search-button">
         <button type="button" id="button-1">Google Search</button>
         <button type="button" id="button-2">I'm feeling lucky</button>
+    </div>
     </div>
     <div class="languge">Google offered in: 
          <a href="#">English</a>    
@@ -41,16 +45,24 @@
          <a href="#">മലയാളം</a>
     </div>
     
-    <footer>
-        <ul>
+    <footer class="footerel">
+        
+        <ul id="footer-list1">
             <li>India</li>
+        </ul>
+        <ul id="footer-list2">
+            <div id="footer1">
             <li><a href="#">About</a></li>
             <li><a href="#">Advertising</a></li>
             <li><a href="#">Business</a></li>
             <li><a href="#">How Search works</a></li>
+            </div>
+            <div></div>
+            <div id="footer2">
             <li><a href="#">Privacy</a></li>
             <li><a href="#">Terms</a></li>
             <li><a href="#">Settings</a></li>
+            </div>
         </ul>
 
     </footer>
