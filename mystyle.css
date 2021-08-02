@@ -25,15 +25,18 @@ body{
 }
 .languge{
     text-align: center;
-    padding: 10px;
+    padding: 5px 10px;
     margin:5px;
+    font-size:13px;
 }
 .languge>a{
-    padding:5px;
+    padding:0px 3px;
+    color:blue;
+    font-size: 13px;
 }
 
 .search-button{
-    padding:15px 25px;
+    padding:15px 0px 0px 0px;
     
     
 }
@@ -41,8 +44,8 @@ button{
     appearance: none;
     background-color: #f8f9fa;
     margin:11px 10px;
-    padding:10px 10px;
-    font-size:17px;
+    padding:10px 15px;
+    font-weight:normal;
     border:none;
     border-radius: 3px;
 
@@ -84,13 +87,15 @@ footer{
     height: fit-content;
    
 }
-#footer-list1{
+#footer-list1>li{
     list-style-type: none;
-    padding:15px 5px 0px 20px;
-    margin:0px 0px 0px 13px;
+    padding:10px 15px;
+    margin:0px;
+    color:#8b8d8d;
 }
-#footer-list1>ul{
-    pad
+#footer-list1{
+    margin:0px;
+    padding:0px;
 }
 
 #footer1{
@@ -99,23 +104,29 @@ footer{
 
 }
 #footer1>li{
-    padding: 2px 4px 2px 4px;
-    margin:5px;
+    padding:15px;
+    margin:0px;
+    color:#8b8d8d;
+    font-size:14px;
 }
 #footer2{
     display: flex;
     justify-content:center;
 }
 #footer2>li{
-    padding:2px 4px 2px 4px;
-    margin:5px;
+    padding:15px;
+    margin:0px;
+    color: #8b8d8d;
+    font-size: 14px;
+    
 }
 
 #footer-list2{
     list-style-type: none;
-    padding:0px 0px 0px 0px;
+    padding: 0px;
+    margin: 0px;
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     flex-wrap: wrap;
     border-top: 1px solid #dadbdb
 }
@@ -146,6 +157,8 @@ footer{
 
 a{
     text-decoration: none;
+    color:inherit;
+    
 }
 #mic{
     margin: 0px 10px 0px 10px;
@@ -166,10 +179,10 @@ a:hover{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    width: 38vw;
-    height:40px;
+    width: 554px;
+    height:46px;
     border:1px solid #edf0f0;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 #search-boxm:hover{
     margin:1.5px;
@@ -180,7 +193,8 @@ a:hover{
 }
 #search-box{
     position:relative;
-    width:40vw;
+    width:487px;
+    height:34px;
     border:none;
     outline:none;
     
