@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+}
 #search-logo{ 
     display:flex;
     justify-content:center;
@@ -35,21 +39,37 @@
 }
 button{
     appearance: none;
-    background-color: #F8F9FA;
-    margin:11px 4px;
-    padding:5px 16px;
+    background-color: #f8f9fa;
+    margin:11px 10px;
+    padding:10px 10px;
     font-size:17px;
     border:none;
     border-radius: 3px;
 
 }
-button:hover{
+#button-2{
+    margin:1px;
+    
+}
+#button-1{
+    margin:1px 1px 1px 1px;
+}
+
+
+
+#button-2:hover{
+    border:1px solid rgb(228, 227, 227);
+    box-shadow:.5px .5px rgba(222, 223, 224, 0.993);
+    border-radius: 3px;
+    margin:0px;
+
+
+}
+#button-1:hover{
     border:1px solid rgb(228, 227, 227);
     box-shadow:.5px .5px rgb(224, 222, 222);
     border-radius: 3px;
-    margin:0px 0px 1px 1px;
-
-
+    margin:0px;
 }
 footer{
     position:fixed;
@@ -66,8 +86,11 @@ footer{
 }
 #footer-list1{
     list-style-type: none;
-    padding:10px 5px 0px 10px;
-    margin:3px 3px 0px 3px;
+    padding:15px 5px 0px 20px;
+    margin:0px 0px 0px 13px;
+}
+#footer-list1>ul{
+    pad
 }
 
 #footer1{
@@ -77,6 +100,7 @@ footer{
 }
 #footer1>li{
     padding: 2px 4px 2px 4px;
+    margin:5px;
 }
 #footer2{
     display: flex;
@@ -84,11 +108,12 @@ footer{
 }
 #footer2>li{
     padding:2px 4px 2px 4px;
+    margin:5px;
 }
 
 #footer-list2{
     list-style-type: none;
-    padding:10px 20px 0px 0px;
+    padding:0px 0px 0px 0px;
     display:flex;
     justify-content:space-around;
     flex-wrap: wrap;
@@ -104,18 +129,22 @@ footer{
 
 }
 .navigation>ul>li{
-    margin:2px 5px 2px 5px;
-    padding:2px;
+    margin:2px 8px 2px 5px;
+    padding:5px;
+    
 }
-
 #side-logo{
+    margin:6px;
+}
+#side-logo:hover{
     padding: 6px 6px 2px 6px;
+    margin :0px 1px 0px -1px;
     border-radius: 50px;
+    background-color: #edeeee;
 
 }
 
 a{
-    font-family: 'Roboto':cursive;
     text-decoration: none;
 }
 #mic{
